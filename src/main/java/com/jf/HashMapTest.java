@@ -43,7 +43,7 @@ public class HashMapTest {
 
         // 2. 遍历Set集合，从而获取key-value
         // 2.1 通过for循环
-        for(Map.Entry<String, Integer> entry : entrySet){
+        for (Map.Entry<String, Integer> entry : entrySet) {
             System.out.print(entry.getKey());
             System.out.println(entry.getValue());
         }
@@ -66,7 +66,7 @@ public class HashMapTest {
 
         // 2. 遍历Set集合，从而获取key，再获取value
         // 2.1 通过for循环
-        for(String key : keySet){
+        for (String key : keySet) {
             System.out.print(key);
             System.out.println(map.get(key));
         }
@@ -77,7 +77,7 @@ public class HashMapTest {
         Iterator iter2 = keySet.iterator();
         String key = null;
         while (iter2.hasNext()) {
-            key = (String)iter2.next();
+            key = (String) iter2.next();
             System.out.print(key);
             System.out.println(map.get(key));
         }

@@ -1,23 +1,20 @@
 package com.jf;
 
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.*;
+import com.jf.newfeature.User;
 
 public class Main {
 
-    public static void main(String[] args) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
-        List<Integer> list = new ArrayList<>();
-        list.add(2);
-        list.add(3);
-        // Method add = list.getClass().getDeclaredMethod("add", Object.class);
-        // Object abc = add.invoke(list, "abc");
-        Iterator<Integer> iterator = list.iterator();
-        while(iterator.hasNext()) {
-            iterator.remove();
-        }
-        // System.out.println(abc);
-        System.out.println(list);
+    public static void main(String[] args) {
+        User user1 = new User();
+        user1.setAge(1);
+        User user2 = new User();
+        System.out.println(user1);
+        fun(user1, user2);
+        System.out.println(user1.getAge());
 
+    }
+
+    private static void fun(User user1, User user2) {
+        user1.setAge(2);
     }
 }
