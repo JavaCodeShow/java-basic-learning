@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Main {
+public class BizShowPropertyTest {
 
     public static void main(String[] args) throws IOException {
         String sql = "update biz_show_property set is_deleted = 1 where is_deleted = 0 and biz_show_id in ('6034a40d99012d61b2677590')  \n" +
