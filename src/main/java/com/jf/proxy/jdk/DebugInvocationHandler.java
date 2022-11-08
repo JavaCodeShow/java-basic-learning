@@ -9,6 +9,7 @@ import java.lang.reflect.Method;
  * @create 2020-11-04   17:27
  */
 public class DebugInvocationHandler implements InvocationHandler {
+
     /**
      * 代理类中的真实对象
      */
@@ -17,7 +18,6 @@ public class DebugInvocationHandler implements InvocationHandler {
     public DebugInvocationHandler(Object target) {
         this.target = target;
     }
-
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws InvocationTargetException, IllegalAccessException {
