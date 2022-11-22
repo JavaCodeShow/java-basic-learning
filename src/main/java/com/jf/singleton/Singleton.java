@@ -1,4 +1,4 @@
-package com.jf;
+package com.jf.singleton;
 
 /**
  * @author 潇潇暮雨
