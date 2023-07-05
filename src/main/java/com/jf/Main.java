@@ -18,7 +18,6 @@ public class Main {
 
             TimeUnit.MILLISECONDS.sleep(1000);
         }
-        hello
 
     }
 }
