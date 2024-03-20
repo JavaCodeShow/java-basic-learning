@@ -8,7 +8,6 @@ import java.util.List;
  * @date 2020/8/1 10:06
  */
 public class MiddleOperation {
-
     public static void main(String[] args) {
 
         List<User> list = new ArrayList();

@@ -16,5 +16,9 @@ public class ReadObject {
             System.out.println(list.get(i).toString());
         }
 
+
     }
 }
+
+
+
