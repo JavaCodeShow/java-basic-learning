@@ -26,6 +26,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <common-utils.version>1.0.0.0-SNAPSHOT</common-utils.version>
+
     </properties>
 
     <dependencies>
@@ -42,6 +44,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.jf</groupId>
+            <artifactId>common-utils</artifactId>
+            <version>${common-utils.version}</version>
         </dependency>
 
         <dependency>

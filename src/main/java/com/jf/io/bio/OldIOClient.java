@@ -8,7 +8,7 @@ import java.net.Socket;
 public class OldIOClient {
 
     public static void main(String[] args) throws Exception {
-        Socket socket = new Socket("172.28.88.249", 6668);
+        Socket socket = new Socket("172.31.128.22", 6668);
 
         String fileName = "1.txt";
         InputStream inputStream = new FileInputStream(fileName);
